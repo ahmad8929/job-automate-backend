@@ -3,3 +3,9 @@ dist
 .env
 .env.*
 !.env.example
+
+# Any local copy of the env file (e.g. prepared for the server)
+env
+*.env
+.env*
+!.env.example
